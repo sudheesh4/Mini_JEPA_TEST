@@ -1,3 +1,5 @@
+A lightweight JEPA-based demo that learns to fill in masked image regions using a webcam feed. It trains a small encoder–predictor–decoder network with edge-aware loss for sharp reconstructions, enabling live masked image completion directly from webcam frames.
+
 Self-supervised **masked reconstruction** on webcam frames using a tiny JEPA setup:
 - **ConvEncoder (student/teacher)** with EMA
 - **JEPA PatchPredictor** (MLP head)
